@@ -1,0 +1,19 @@
+# Site settings
+title: Notes on mathematics and physics
+email: garciamx@gmail.com
+description: "This site contains my personal notes. Most of them come from my day to day activities as a mathematician, many others come from my interests in physics."
+baseurl: ""
+url: http://ixxra.github.io/mathannotations
+
+show_drafts: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+timezone: America/Merida
+
+github_user: "ixxra"
+twitter_user: "@renegarxia"
+
+excerpt_separator: ""

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="home">
+    <section>
+        <header>Categories</header>
+        <nav>
+            <ul class="categories">
+            </ul>
+        </nav>
+    </section>
+<section>
+    <header><h1>Notes</h1></header>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {% for category in post.categories %}
+            <a class="post-category">{{ category }}</a>
+        {% endfor %}
+
+        {% if post.layout == 'draft' %}
+            <span class="alert">Draft</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</section>
+</div>
