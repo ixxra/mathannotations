@@ -2,7 +2,7 @@
 title: Notes on mathematics and physics
 email: garciamx@gmail.com
 description: "This site contains my personal notes. Most of them come from my day to day activities as a mathematician, many others come from my interests in physics."
-baseurl: ""
+baseurl: "/mathannotations"
 url: http://ixxra.github.io/mathannotations
 
 show_drafts: true
