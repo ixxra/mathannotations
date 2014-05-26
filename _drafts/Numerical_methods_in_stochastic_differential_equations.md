@@ -39,7 +39,7 @@ dt = T / n
     [<matplotlib.lines.Line2D at 0x3a55b10>]
 
 
-![png](/assets/ipython/Numerical%20methods%20in%20stochastic%20differential%20equations_files/Numerical%20methods%20in%20stochastic%20differential%20equations_6_1.png)
+![png]({{site.baseurl}}/assets/ipython/Numerical%20methods%20in%20stochastic%20differential%20equations_files/Numerical%20methods%20in%20stochastic%20differential%20equations_6_1.png)
 
 
 # Stochastic maltus model
@@ -81,7 +81,7 @@ dt = T / n
 
 
 
-![png](/assets/ipython/Numerical%20methods%20in%20stochastic%20differential%20equations_files/Numerical%20methods%20in%20stochastic%20differential%20equations_15_1.png)
+![png]({{site.baseurl}}/assets/ipython/Numerical%20methods%20in%20stochastic%20differential%20equations_files/Numerical%20methods%20in%20stochastic%20differential%20equations_15_1.png)
 
 
 **Euler-Murayama approximation**
@@ -108,7 +108,7 @@ dt = T / n
 
 
 
-![png](/assets/ipython/Numerical%20methods%20in%20stochastic%20differential%20equations_files/Numerical%20methods%20in%20stochastic%20differential%20equations_18_1.png)
+![png]({{site.baseurl}}/assets/ipython/Numerical%20methods%20in%20stochastic%20differential%20equations_files/Numerical%20methods%20in%20stochastic%20differential%20equations_18_1.png)
 
 
 **Milstein method**
@@ -136,7 +136,7 @@ dt = T / n
 
 
 
-![png](/assets/ipython/Numerical%20methods%20in%20stochastic%20differential%20equations_files/Numerical%20methods%20in%20stochastic%20differential%20equations_21_1.png)
+![png]({{site.baseurl}}/assets/ipython/Numerical%20methods%20in%20stochastic%20differential%20equations_files/Numerical%20methods%20in%20stochastic%20differential%20equations_21_1.png)
 
 
 **Qualitative comparison**
@@ -150,7 +150,7 @@ dt = T / n
     plt.grid()
 
 
-![png](/assets/ipython/Numerical%20methods%20in%20stochastic%20differential%20equations_files/Numerical%20methods%20in%20stochastic%20differential%20equations_23_0.png)
+![png]({{site.baseurl}}/assets/ipython/Numerical%20methods%20in%20stochastic%20differential%20equations_files/Numerical%20methods%20in%20stochastic%20differential%20equations_23_0.png)
 
 
 As it was expected, *euler's* method is more prone to error than *Milstein's*
