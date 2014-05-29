@@ -8,11 +8,7 @@ server_port     = "4000"
 
 desc "Preview site"
 task :preview do
-<<<<<<< HEAD
-    system "jekyll serve --port 5000 --watch"
-=======
     system "jekyll serve --port 5000 --watch --drafts"
->>>>>>> ec6307957e2c61c44769c86b16e9c97d0e6d84f1
 end
 
 

@@ -4,6 +4,8 @@ title: "Stochastic differential equations"
 date: 2014-05-21 17:20:31 -0500
 comments: true
 categories: sdes
+category: sdes
+tags: sdes stochastic diffeq
 ---
 
 
