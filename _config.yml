@@ -7,6 +7,8 @@ url: http://ixxra.github.io/mathannotations
 
 show_drafts: true
 
+exclude: Gemfile, Gemfile.lock, Rakefile
+
 # Build settings
 markdown: kramdown
 permalink: pretty
